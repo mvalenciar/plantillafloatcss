@@ -6,6 +6,16 @@
     url(/fonts/nevis.woff) format("woff"), url(/fonts/nevis.svg) format("svg");
 }
 
+@font-face {
+  font-family: "webymbols";
+  src: url(/fonts/websymbols-regular-webfont.eot);
+  src: url(/fonts/websymbols-regular-webfont.eot?iefix)
+      format("embedded-opentype"),
+    url(/fonts/websymbols-regular-webfont.ttf) format("truetype"),
+    url(/fonts/websymbols-regular-webfont.woff) format("woff"),
+    url(/fonts/websymbols-regular-webfont.svg) format("svg");
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -130,9 +140,13 @@ a {
 
 /* INICIO ASIDE */
 #aside {
-  display: block;
   margin: 40px 90px 50px 100px;
   width: 220px;
+  float: left;
+}
+.widget_container {
+  display: block;
+  width: 100%;
   background-color: white;
   border: 1px solid gainsboro;
   box-shadow: 0px 3px 3px grey;
@@ -228,3 +242,75 @@ input[type="button"]:active {
   -o-transform: scale(0.9);
 }
 /* FIN FORMULARIO */
+
+/* INICIO MAIN - NOTICIAS - ARTICULOS*/
+
+#main {
+  display: block;
+  margin-top: 50px;
+  width: 900px;
+  float: left;
+}
+
+.noticia {
+  display: block;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 3px 3px grey;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+}
+
+.noticia:nth-child(2) h2 {
+  color: #9b2422;
+}
+
+.noticia:nth-child(3) h2 {
+  color: #d59739;
+}
+
+.noticia:nth-child(3) {
+  margin-bottom: 10px;
+}
+
+.articulo {
+  display: block;
+  position: relative;
+}
+
+.articulo h2 {
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: "nevis", Arial, Helvetica, sans-serif;
+  border-bottom: 2px solid black;
+}
+
+.articulo .icono {
+  font-family: "webymbols", Arial, Helvetica, sans-serif;
+}
+
+.articulo p {
+  padding: 10px;
+}
+
+.articulo a {
+  margin: 0px 8px;
+}
+
+.articulo .date {
+  color: gray;
+}
+
+.historial {
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+
+/* FIN MAIN - NOTICIAS - ARTICULOS*/
