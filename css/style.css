@@ -248,7 +248,7 @@ input[type="button"]:active {
 #main {
   display: block;
   margin-top: 50px;
-  width: 900px;
+  width: 800px;
   float: left;
 }
 
@@ -314,3 +314,23 @@ input[type="button"]:active {
 }
 
 /* FIN MAIN - NOTICIAS - ARTICULOS*/
+
+/* INICIO PEGATINAS */
+
+.pegatinas {
+  top: -43px;
+  display: block;
+  position: relative;
+}
+
+.pegatina1 {
+  position: absolute;
+  left: 0px;
+}
+
+.pegatina2 {
+  position: absolute;
+  right: 0px;
+}
+
+/* FIN PEGATINAS */
