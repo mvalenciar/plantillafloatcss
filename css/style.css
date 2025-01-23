@@ -35,6 +35,14 @@ a {
   cursor: pointer;
 }
 
+h2 {
+  font-family: "nevis", Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  text-decoration: green underline;
+}
+
 /* Inicio Header */
 
 #header {
@@ -174,7 +182,6 @@ a {
   text-align: center;
   font-size: 12pt;
   background-color: #f2f3f2;
-  font-family: "nevis", Arial, Helvetica, sans-serif;
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
 }
@@ -194,12 +201,6 @@ a {
 .widget:nth-child(4) li {
   list-style: inside;
 }
-
-.widget a:hover,
-.frase a:hover {
-  text-decoration: green underline;
-}
-
 /* FIN ASIDE */
 
 /* INICIO FORMULARIO */
@@ -287,8 +288,7 @@ input[type="button"]:active {
   margin-bottom: 10px;
   padding: 10px;
   text-align: center;
-  font-family: "nevis", Arial, Helvetica, sans-serif;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid gray;
 }
 
 .articulo .icono {
@@ -345,6 +345,7 @@ input[type="button"]:active {
 #footer {
   display: block;
   margin-top: 40px;
+  padding: 10px;
   background-color: RGB(51, 51, 51);
   text-align: center;
   color: white;
